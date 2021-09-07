@@ -1,3 +1,16 @@
+# Combination of CRA with AntD and LESS
+
+This repository shows a sample implementation of theming Ant Design designs with LESS in a CRA based project.
+
+Sadly, CRA supports SASS / SCSS nativly - and AntD is designed with LESS.
+Because of this, it is necessary to either eject the CRA or use a custom configuration tool as i.e. craco.
+https://ant.design/docs/react/customize-theme#Customize-in-create-react-app
+
+A pain of using override variables for the LESS loader in the craco config is the constant need of restarting the dev server to see changes.
+For ease of use, cascading LESS files together with the loader is the best combination for now.
+
+Please consider the notes provided by AntD.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
